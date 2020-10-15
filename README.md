@@ -12,4 +12,5 @@ ii)In the terminal write npm run ssr.
 iii)Go to the browser and type localhost:8000
 
 Screenshot For App Perfomance:-
-Link:![image](https://user-images.githubusercontent.com/25960943/96159301-1e88df00-0f32-11eb-9c94-24a186c20031.png)
+Link:![image](https://user-images.githubusercontent.com/25960943/96171516-a840a880-0f42-11eb-87cc-8ddbb0519e59.png)
+
