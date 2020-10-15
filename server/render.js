@@ -13,7 +13,7 @@ import {StaticRouter} from 'react-router-dom'
 
 export default (req, res, next) => {
     const filePath = path.resolve(__dirname, '..', 'build', 'index.html');
-
+    // to read file
     fs.readFile(filePath, 'utf8', (err, htmlData) => {
         const context={};
         const store = createStore(reducer,applyMiddleware(thunk));
