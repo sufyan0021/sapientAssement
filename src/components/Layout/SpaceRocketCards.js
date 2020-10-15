@@ -21,7 +21,6 @@ function SpaceRocketCards(props){
     const paginate = pageNumber => setCurrentPage(pageNumber);
 
     useEffect(() => {
-        console.log('params changes',props);
         props.fetchData(limit,props.match.params);
     }, [props.match.params,limit])
     const currentSpaceLaunch=(props.spacexLaunches==null&&props.filteredLaunches==null)

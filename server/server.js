@@ -21,3 +21,8 @@ router.use(
 router.use('*', serverRenderer);
 
 app.use(router);
+
+app.listen(PORT,()=>{
+    console.log(`App Launched on ${PORT}`)
+})
+
