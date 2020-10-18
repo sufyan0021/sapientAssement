@@ -7,9 +7,10 @@ iii)The Redux is being used as a central state management.
 iv)Thunk is being used to provide a middleware for fetching data and then storing it.
 
 Steps to run the app:-
-i)Go into the app directory in the terminal.
-ii)In the terminal write npm run ssr.
-iii)Go to the browser and type localhost:8000
+i)run nom build in the project directory.
+ii)Go into the app directory in the terminal.
+iii)In the terminal write npm run ssr.
+iv)Go to the browser and type localhost:8000
 
 Screenshot For App Perfomance:-
 Link:![image](https://user-images.githubusercontent.com/25960943/96171516-a840a880-0f42-11eb-87cc-8ddbb0519e59.png)
